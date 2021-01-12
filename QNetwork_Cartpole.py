@@ -1,9 +1,7 @@
 import gym
 import numpy as np
 import tensorflow as tf
-import matplotlib.pyplot as plt
 
-changed = 1
 env = gym.make("CartPole-v0")
 
 # Input and Output size based on the env
